@@ -1,0 +1,5 @@
+translate_word(
+    query: str,
+    input_type: str = "auto",
+    orthography: str = "SFO"
+) -> dict | None
