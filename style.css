@@ -471,4 +471,98 @@ body {
   color: #9ca3af;
   border-top: 1px solid rgba(31, 41, 55, 0.9);
 }
+/* Translator layout */
+
+.translator-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.1fr);
+  gap: 0.75rem;
+  min-height: 60vh;
+}
+
+@media (max-width: 900px) {
+  .translator-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.translator-panel {
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(75, 85, 99, 0.8);
+}
+
+.translator-notes {
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  background: radial-gradient(circle at top right, #020617, #020617 45%, #0b1120);
+  border: 1px solid rgba(55, 65, 81, 0.9);
+}
+
+.translator-input-row {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.75rem 0;
+}
+
+#bridge-input {
+  flex: 1;
+  padding: 0.45rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.7);
+  background: rgba(15, 23, 42, 0.95);
+  color: #f9fafb;
+  font-size: 0.9rem;
+}
+
+#bridge-input::placeholder {
+  color: #6b7280;
+}
+
+#bridge-button {
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid rgba(248, 250, 252, 0.8);
+  background: #e5e7eb;
+  color: #020617;
+  font-size: 0.85rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#bridge-button:hover {
+  background: #f9fafb;
+}
+
+.translator-results {
+  margin-top: 0.5rem;
+}
+
+/* Reuse .card style from detail panel, but if you don't have it yet: */
+
+.card {
+  margin-bottom: 0.6rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: 0.6rem;
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(75, 85, 99, 0.9);
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.card small {
+  display: block;
+  margin-top: 0.1rem;
+  font-size: 0.7rem;
+  color: #9ca3af;
+}
+
+.card p {
+  margin: 0.2rem 0;
+  font-size: 0.85rem;
+}
 
