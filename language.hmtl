@@ -26,8 +26,9 @@
     <section class="controls">
       <h2>Language as Worldview</h2>
       <p class="hint">
-        This page is not a full dictionary. It’s a teaching tool built from a small basket of words
-        and patterns you shared – like <code>-ji'j</code> diminutives, time words, and relational meanings.
+        This page is not a full dictionary. It’s a teaching tool built from a small
+        basket of words and patterns you shared – like <code>-ji'j</code>
+        diminutives, time words, and relational meanings.
       </p>
     </section>
 
@@ -35,10 +36,12 @@
       <section class="translator-panel">
         <h2>Mi’kmaw ↔ English bridge</h2>
         <p class="hint">
-          Type a Mi’kmaw word (S/F.O or Listuguj) like <code>amu</code>, 
-          <code>amuji'j</code>, <code>tpuk</code>, <code>awnasiey</code>,
-          <code>Netukulimk</code>, <code>Msit No'kmaq</code>, 
-          or an English gloss like <code>bee</code>, <code>winter</code>, <code>nervous</code>.
+          Type a Mi’kmaw word (S/F.O or Listuguj) like
+          <code>amu</code>, <code>amuji'j</code>, <code>tpuk</code>,
+          <code>awnasiey</code>, <code>Netukulimk</code>,
+          <code>Msit No'kmaq</code>,
+          or an English gloss like <code>bee</code>, <code>winter</code>,
+          <code>nervous</code>.
         </p>
 
         <div class="translator-input-row">
@@ -59,8 +62,8 @@
       <aside class="translator-notes">
         <h2>How this bridge thinks</h2>
         <p>
-          This translator does not try to perfectly convert between L’nui’suti and English.
-          It follows a Two-Eyed Seeing approach:
+          This translator does not try to perfectly convert between L’nui’suti and
+          English. It follows a Two-Eyed Seeing approach:
         </p>
         <ul>
           <li>
@@ -68,13 +71,14 @@
             <code>-ji'j</code> as a diminutive / child-form) and clear code structure.
           </li>
           <li>
-            <strong>L’nuk eye:</strong> each entry has a relational explanation –
-            what the word means in terms of kinship, land, spirit, and responsibility.
+            <strong>L’nuk eye:</strong> each entry has a relational explanation – what
+            the word means in terms of kinship, land, spirit, and responsibility.
           </li>
         </ul>
         <p>
-          If you are an Elder, language keeper, or learner: this is meant to support your work,
-          not replace you. The basket of words and explanations should grow through community guidance.
+          If you are an Elder, language keeper, or learner: this is meant to support
+          your work, not replace you. The basket of words and explanations should grow
+          through community guidance.
         </p>
       </aside>
     </section>
@@ -82,7 +86,11 @@
 
   <footer class="site-footer">
     <p>
-      This page uses a very small Mi’kmaw lexicon and pattern rules. Any serious use should
-      involve fluent speakers, Elders, and community custodians.
+      This page uses a very small Mi’kmaw lexicon and pattern rules. Any serious use
+      should involve fluent speakers, Elders, and community custodians.
     </p>
   </footer>
+
+  <script src="bridge.js"></script>
+</body>
+</html>
