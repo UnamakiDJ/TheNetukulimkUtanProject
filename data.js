@@ -1,5 +1,4 @@
 // LNU_DATA: A compact Two-Eyed Seeing dataset for the website.
-// You can grow this over time.
 
 const LNU_DATA = {
   eras: [
@@ -110,7 +109,6 @@ const LNU_DATA = {
     }
   },
 
-  // Kluskap legends with science links
   legends: [
     {
       id: "creation_kluskap_mikmaq",
@@ -184,7 +182,6 @@ const LNU_DATA = {
     }
   ],
 
-  // Timeline events
   timeline_events: [
     {
       id: "deglaciation",
@@ -282,7 +279,6 @@ const LNU_DATA = {
     }
   ],
 
-  // Archaeology & Geology mapping
   archaeology: [
     {
       id: "debert_paleoindian",
